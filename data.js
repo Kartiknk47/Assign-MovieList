@@ -17,7 +17,7 @@ const Movies = [
         id: 3,
         image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlSBuq_DsWCAU2oYqACUPwlWBFvWG2UC-yew&s',
         title: "Golmaal Again",
-        description: "Golmaal Again is yet another fun filled ride about two gangs who are unable to stand each other since their childhood .",
+        description: "Golmaal Again (transl. Chaos Again) is a 2017 Indian Hindi-language supernatural action comedy film written and directed by Rohit Shetty; produced by Rohit Shetty Pictures, Mangl Murti Films and Reliance Entertainment.[1] The film is the fourth installment of Golmaal franchise and stars Ajay Devgn, Tabu, Arshad Warsi, Parineeti Chopra, Tusshar Kapoor, Shreyas Talpade, Kunal Khemu, Neil Nitin Mukesh and Johnny Lever.",
         rating: 3,
     },
     {
@@ -32,7 +32,7 @@ const Movies = [
         image:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRuWWDMeE1iElPRz-2r6jMLvYaOgHTrNWxHIC_7S9QmoZdDa8kO",
         title: "Chhaava",
         rating: 5,
-        description: "Chhaava is a 2025 Indian historical action film about the life of Chhatrapati Sambhaji Maharaj, the second ruler of the Maratha Empire. The film is based on the Marathi novel Chhava by Shivaji Sawant."
+        description: "Chhaava (transl. Lion cub) is a 2025 Indian Hindi-language historical action film based on the life of Sambhaji Maharaj, the second ruler of the Maratha Empire, who is played by Vicky Kaushal. An adaptation of the Marathi novel Chhava by Shivaji Sawant, it is directed by Laxman Utekar and produced by Dinesh Vijan under Maddock Films. The cast also includes Rashmika Mandanna and Akshaye Khanna."
     },
    
     {
@@ -45,7 +45,7 @@ const Movies = [
     {
         id: 7,
         image:"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS-ebpM2eCE5zokXPmVoXiqleuTSZzu_xueZygyefw5anVly2u7",
-        title: "Lucky Baskkar",
+        title: "Lucky Baskhar",
         rating: 4,
         description: "Lucky Baskhar (stylised as LUCKY BASKHA₹) is a 2024 Indian Telugu-language period crime drama film written and directed by Venky Atluri. It is produced by S. Naga Vamsi and Sai Soujanya under Sithara Entertainments, Fortune Four Cinema and Srikara Studios. The film stars Dulquer Salmaan in the titular role, alongside Meenakshi Chaudhary, Tinnu Anand, P. Sai Kumar, Ramki, Raghu Babu, Sarvadaman D. Banerjee, Sachin Khedekar and Y. Kasi Viswanath. In the film, a lower-middle-class man begins engaging in financial scams after struggling to support his family while battling debt and humiliation.."
     }, 

@@ -1,12 +1,40 @@
-h3{
-    background-color: lightgray;
-    margin-bottom: 10px;
-    padding: 20px;
-    color: red;
-    text-align: center;
-    font-weight: 900;
-}
+/* AddNewMovie.css */
 
-.form-label{
-    color: white;
-}
+.add-movie-container {
+    min-height: 100vh;
+    background: #121212;
+    padding: 2rem;
+  }
+  
+  .form-card {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .form-control {
+    border-radius: 10px;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .btn {
+    border-radius: 12px;
+    font-weight: 500;
+    padding: 0.6rem 1.2rem;
+  }
+  
+  .button-group > * {
+    min-width: 45%;
+  }
+  
+  @media (max-width: 576px) {
+    .button-group {
+      flex-direction: column;
+    }
+  
+    .button-group > * {
+      width: 100%;
+    }
+  }
+  
