@@ -33,7 +33,7 @@
       flex-direction: column;
     }
   
-    .button-group > * {
+    .button-group > * { 
       width: 100%;
     }
   }

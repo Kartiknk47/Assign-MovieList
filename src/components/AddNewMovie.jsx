@@ -1,6 +1,8 @@
 import React, { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { MovieContext } from "../context/MovieContext";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./AddNewMovie.css";
 
 const AddNewMovie = () => {
@@ -13,7 +15,7 @@ const AddNewMovie = () => {
 
   const handleAddMovie = () => {
     if (!title || !rating || !description) {
-      alert("Please fill out all fields!");
+      toast.error("Please fill out all fields!");
       return;
     }
 
@@ -26,7 +28,13 @@ const AddNewMovie = () => {
     setTitle("");
     setRating("");
     setDescription("");
-    navigate("/");
+
+    toast.success("Movie added successfully!");
+
+    // Delay navigation to let the toast appear
+    setTimeout(() => {
+      navigate("/");
+    }, 1500);
   };
 
   return (
@@ -77,6 +85,8 @@ const AddNewMovie = () => {
           <button className="btn btn-outline-light flex-grow-1" onClick={() => navigate("/")}>Back</button>
         </div>
       </div>
+
+      <ToastContainer position="top-center" />
     </div>
   );
 };
